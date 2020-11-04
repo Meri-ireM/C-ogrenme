@@ -1,0 +1,30 @@
+/* bu kod bloklar konusunu öğrenmek için yazılmıştır.
+*/
+
+#include <stdio.h>
+int main()
+{
+	
+	// a isminde bir değişken main fonksiyonuna tanımlanıyor.
+	
+	int a = 10;
+	{
+		
+		int a = 5;
+		printf("\n %d", a);
+		
+		
+	}
+	
+	printf("\n %d",a);
+	
+	return 0;
+}
+
+sonuç:
+
+5
+ 10
+--------------------------------
+Process exited after 0.06855 seconds with return value 0
+Press any key to continue . . .
