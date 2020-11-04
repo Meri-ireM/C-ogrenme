@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+
+{
+	
+	int a,b,c,d,e;
+	
+float aritmetik ;
+
+printf("5 tane sayi giriniz : ");
+scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+//kullanıcı her değer için enter a basmalı
+aritmetik = (a+b+c+d+e)/5.0;
+printf("girdiğiniz sayilarin aritmetikvortalamsi %.2f" , aritmetik);	
+	
+	
+	
+	return 0;
+}
+
+sonuç:
+5 tane sayi giriniz : 2
+5
+9
+5
+7
+girdi­iniz sayilarin aritmetikvortalamsi 5.60
+--------------------------------
+Process exited after 16.62 seconds with return value 0
+Press any key to continue . . .
