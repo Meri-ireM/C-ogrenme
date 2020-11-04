@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+
+int sayi1, sayi2, sayi3;
+
+sayi1 = 6;
+sayi2= sayi1++ ;
+// Sayı1 önceki satırda 1 arttırıldı 6+1 =7
+sayi3= ++sayi1;
+// Sayı1 de yine arttırma var 7+1 =8
+
+printf("%d %d %d \n", sayi1,sayi2,sayi3);
+
+```
+return 0;
+
+```
+
+}
+
+sonuç:
+8  6  8
+
+--------------------------------
+Process exited after 0.04211 seconds with return value 0
+Press any key to continue . . .
