@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() 
+ {
+	
+	
+int x = 4;
+int y=5;
+int z=6;
+
+//bu işlemlerde değişkenleri tek tek bildirmen gerekiyor bilgisayara
+
+  printf("x:%d  y:%d  z:%d\n", --x, ++y,z++);
+  printf("x:%d  y:%d  z:%d\n", x,y,z);
+  printf("x:%d  y:%d  z:%d\n", x--,--y,z--);
+  
+  /* x-- diyor ki bu satırda xin değerini olduğu gibi çıktıla.
+     sonraki satırda bir düşür
+     --y de diyor ki önceki satırı bir düşürüp çıktıla
+   /*
+  
+  printf("x:%d  y:%d  z:%d\n",x,y,--z);
+  
+	return 0;
+}
+
+sonuç:
+
+x:3  y:6  z:6
+x:3  y:6  z:7
+x:3  y:5  z:7
+x:2  y:5  z:5
+
+--------------------------------
+Process exited after 0.048 seconds with return value 0
+Press any key to continue . . .
