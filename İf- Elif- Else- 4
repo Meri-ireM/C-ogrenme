@@ -1,0 +1,52 @@
+#include <stdio.h>
+int main()  {
+	
+	int vize1,vize2,final;
+	float dersort;
+	
+	printf ("1. vize notunuzu girin:");
+	scanf("%d",&vize1);
+	printf("2. vize notunuzu girin:");
+	scanf("%d" ,&vize2);
+	printf("final notunuzu giriniz:");
+	scanf("%d",&final);
+	
+	dersort = (vize1 + vize2 + final)/ 3.0;
+	
+
+	
+if (dersort > 60 ) {
+	
+	printf("dersten gectiniz.");
+	
+}
+	
+if (dersort > 50  && dersort <60) {
+		
+		printf("dersten büte kaldiniz.");
+		
+	}	
+	
+	else{
+		
+		
+		printf ("kaldınız.");
+	}
+		
+		
+	
+	
+	return 0;
+}
+
+
+
+sonuç0:
+
+. vize notunuzu girin:50
+2. vize notunuzu girin:51
+final notunuzu giriniz:52
+dersten b³te kaldiniz.
+--------------------------------
+Process exited after 35.97 seconds with return value 0
+Press any key to continue . . .
