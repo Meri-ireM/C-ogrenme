@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()  {
+	
+	
+	int a = 45;
+	int b = 23;
+	int c = 16;
+	
+	a= b;
+	b= a + c+ 3;
+	c= b+ 8;
+	
+	printf("%d  %d  %d  \n", a,b,c);
+	
+	return 0;
+}
+
+
+sonuç:
+23  42  50
+
+--------------------------------
+Process exited after 0.04496 seconds with return value 0
+Press any key to continue . . .
