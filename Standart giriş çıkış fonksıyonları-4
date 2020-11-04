@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+
+{
+	
+	char isim [10];
+	int yas;
+	
+	printf("adiniz :"); scanf("%s", &isim);
+	printf("yasiniz :"); scanf("%d", &yas);
+	
+	printf("merhaba %s yasiniz %d", isim,yas);
+
+sonuç:
+adiniz :işlkj
+yasiniz :85
+merhaba işlkj yasiniz 85
+--------------------------------
+Process exited after 3.73 seconds with return value 0
+Press any key to continue . . .
