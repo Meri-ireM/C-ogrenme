@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <math.h>
+
+/*
+
+ax^2 + bx +c şeklinde denklemin
+ 
+ */
+ 
+ int main() 
+ 
+ {
+ 	
+ 	int a,b,c;
+ 	float x1, x2;
+ 	float delta;
+ 	
+ 	printf("denklemin a`sını giriniz: ");
+ 	scanf("%d", &a);
+ 	printf("denklemin b`sini giriniz : ");
+ 	scanf("%d", &b); 	
+ 	printf(" denklemin c`sini giriniz : ");
+ 	scanf("%d", &c);
+ 	
+ 	
+ 	delta = b*b -4*a*c;
+	 
+	 x1 = -(-b + (sqrt(delta))) /2*a;
+	 x2 = (-b - (sqrt(delta)))	/2*a;
+	 printf("denklemin 1. koku %2.f, ikinci koku %2.f dir", x1,x2);
+	
+ 	
+
+ 	
+ return 0;	
+ 	
+ 	
+ }
+
+sonuç:
+
+denklemin a`s²n² giriniz: 4
+denklemin b`sini giriniz : 8
+ denklemin c`sini giriniz : 2
+denklemin 1. koku  5, ikinci koku -27 dir
+--------------------------------
+Process exited after 17.16 seconds with return value 0
+Press any key to continue . . .
