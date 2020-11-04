@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+int main() {
+	
+	
+	int note;
+	printf (" notunuzu giriniz :");
+	scanf ("%d, &note");
+	
+	if(note > 60) {
+		
+		
+		
+		printf("dersten geçtiniz:");
+	
+	}	
+	else {
+		
+		
+		
+		
+		printf("dersten kaldınız.");
+	}
+	
+	
+	
+	
+	
+	
+	return 0;
+}
+
+sonuç:
+notunuzu giriniz :40
+dersten kald²n²z.
+--------------------------------
+Process exited after 4.336 seconds with return value 0
+Press any key to continue . . .
