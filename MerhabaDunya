@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+	
+	
+	printf("Merhaba Dunya");
+	
+	
+	
+	return 0;
+}
+
+sonuç:
+
+Merhaba Dunya
+--------------------------------
+Process exited after 0.04248 seconds with return value 0
+Press any key to continue . . .
