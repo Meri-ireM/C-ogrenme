@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+	
+	
+	
+	
+	
+	
+	int x= 5;
+	int y = 7;
+	int a = 2;
+	
+	
+	x=y ;
+	y= x+a+1;
+	
+	printf("x:%d\ny:%d\na:%d\n",x,y,a);
+	
+	return 0;
+}
+
+
+
+sonuç:
+x:7
+y:10
+a:2
+
+--------------------------------
+Process exited after 0.01297 seconds with return value 0
+Press any key to continue . . .
