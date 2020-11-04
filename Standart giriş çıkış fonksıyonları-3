@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() 
+
+{
+
+	
+	char ad [10]= "mehmet" ;	
+	int yas =25;
+	float boy = 1.78;
+
+printf ("AD : %s \n Yas: %d \n boy: %.2f", ad,yas,boy);	
+	
+	
+	return 0;
+}
+
+sonuç :
+AD : mehmet
+ Yas: 25
+ boy: 1.78
+--------------------------------
+Process exited after 0.02444 seconds with return value 0
+Press any key to continue . . .
