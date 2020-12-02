@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+	
+	int n;
+	int f#iact = 1;
+	
+	printf(" faktoriyelini istedigin sayiyi giriniz:");
+	scanf("%d",&n);
+	
+	while (n != 0) {
+		printf("%d\n",n);
+		fact = fact *n;
+		
+		n--;
+		
+	}
+	
+	printf("%d",fact);
+	
+	return 0;
+}
+
+sonuç:
+
+faktoriyelini istedigin sayiyi giriniz:6
+6
+5
+4
+3
+2
+1
+720
+--------------------------------
+Process exited after 2.63 seconds with return value 0
+Press any key to continue . . .
