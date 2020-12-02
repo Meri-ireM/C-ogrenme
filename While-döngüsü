@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+	
+	int i;
+	
+	i = 0;
+	
+	while(i < 10) {
+		printf("%d -hi detective\n",i);
+		
+		i++;
+	}
+	
+	
+	return 0;
+}
+
+sonuç:
+
+0 -hi detective
+1 -hi detective
+2 -hi detective
+3 -hi detective
+4 -hi detective
+5 -hi detective
+6 -hi detective
+7 -hi detective
+8 -hi detective
+9 -hi detective
+
+--------------------------------
+Process exited after 0.03093 seconds with return value 0
+Press any key to continue . . .
