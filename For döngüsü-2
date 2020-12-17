@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+	
+	int i;
+	int j;
+	
+	for(i=0,j=1; i< 10 && j< 5; i++,j++) {
+	// "and" kullandığımız için j 5e geldiğinde döngü durur
+
+	
+	  printf("i: %d j:%d\n",i,j);
+	
+	
+}
+
+	return 0;
+}
+
+sonuç:
+i: 0 j:1
+i: 1 j:2
+i: 2 j:3
+i: 3 j:4
+
+--------------------------------
+Process exited after 0.04869 seconds with return value 0
+Press any key to continue . . .
