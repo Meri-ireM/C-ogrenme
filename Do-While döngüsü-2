@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main() {
+	
+	int n,hane=0,toplam=0;
+	
+	printf("Sayiyi giriniz:");
+	scanf("%d",&n);
+	
+	do  {
+		
+		toplam += (n%10);
+		
+		hane++;
+		
+		n= n/10;
+		
+	}
+	
+	while (n>0);
+	
+	printf("Rakamlari toplami %d Hane sayisi %d",toplam,hane);
+
+	
+	return 0;
+}
+
+sonuç:
+
+Sayiyi giriniz:3542
+Rakamlari toplami 14 Hane sayisi 4
+--------------------------------
+Process exited after 3.779 seconds with return value 0
+Press any key to continue . . .
