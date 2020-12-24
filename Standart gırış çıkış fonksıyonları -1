@@ -1,5 +1,4 @@
-//standart in put out put kütüphanesi
-//printf ve scanf bu kütüphanede
+
 #define PI 3.14
 //Bu kütüphaneye pi sayısı tanımlamak istiyorum.
 #include <stdio.h>
