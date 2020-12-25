@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+	
+	int toplam= 0;
+	int i= 0;
+	
+	while(i<= 10) {
+		
+		if(i% 2== 1) {
+			continue;      /*i 1 olarak while'a giriyor, continue'ye geçiyor ve kodların devamı
+                     okunmadan başa sarıyor -sonsuz döngü- */
+		}
+		
+		toplam+= i;
+		i++;
+		
+	}
+    printf("%d", toplam);
+		    
+		return 0;
+		
+	}
+sonuç:
+       //programdan çıktı alamadık çünkü sonsuz döngü içine girdi
