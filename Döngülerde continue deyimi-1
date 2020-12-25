@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+	
+	int toplam= 0;
+	
+	int i; 
+	
+	for(i= 1; i<=10; i++) { // for döngüsünde i++ her zaman yapar
+	                        // 1den 10a kadar olan çift sayıların toplamını alacağız
+		
+		if(i% 2== 1){         // iki ile bölümünden kalan 1 ise (tek sayı) başa sarıyor
+			continue;
+		}
+		
+		toplam += i;
+		
+		
+	}
+	printf("%d", toplam);
+        
+		return 0;
+		
+	}
+
+sonuç:
+30
+--------------------------------
+Process exited after 0.02991 seconds with return value 0
+Press any key to continue . . .
