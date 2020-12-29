@@ -1,0 +1,34 @@
+#include <stdio.h>
+int main() {
+	
+	//kullanıcıdan 5 tane sayı isteyeceğiz ve bu sayıların aritmetik ort. alacağız
+	 
+	 int i;
+	 float toplam= 0.0;
+	 
+	 float sayilar[5]; //5 tane değer alabilecek
+	 for (i= 0; i< 5; i++) {
+	 	
+	 	printf("Bir sayi giriniz: ");
+		 scanf("%f",&sayilar[i]); 
+		 
+	 }
+	 
+	 for (i= 0; i<5; i++) {
+	 	toplam += sayilar[i];
+	 }
+	
+	printf("Girdiginiz sayilarin aritmetik ortalamasi %.2f dir",toplam/ 5);
+	
+	return 0;
+}
+Sonuç:
+Bir sayi giriniz: 5
+Bir sayi giriniz: 3.2
+Bir sayi giriniz: 7
+Bir sayi giriniz: 8.1
+Bir sayi giriniz: 6.7
+Girdig­iniz sayilarin aritmetik ortalamasi 6.00 dir
+--------------------------------
+Process exited after 16.09 seconds with return value 0
+Press any key to continue . . .
