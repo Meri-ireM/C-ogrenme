@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+	
+	/*
+	     1 2 3
+	     4 5 6
+	     7 8 9 matristir
+	*/
+	/* Dizimize 3 sütun ve 3 satır verdik(Bu şuan iki boyutlu) */
+	int matris [3][3] = {{1,2,3},{4,5,6},{7,8,9}}; 
+	//Her satır için süslü parantez
+	
+	printf("%d",matris[2][2]);
+	
+	return 0;
+}
+Sonuç:
+9 
+--------------------------------
+Process exited after 0.04397 seconds with return value 0
+Press any key to continue . . .
