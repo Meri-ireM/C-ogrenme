@@ -1,0 +1,42 @@
+#include <stdio.h>
+int main() {
+	
+	
+	int matris [3][3]; //kullanıcı rakamları girerek kendi üçlü matrisini oluşturacak
+	int i,j; 
+	
+	for(i=0; i<3; i++){
+		
+		for(j=0; j<3; j++){
+		    scanf("%d",&matris[i][j]);
+		}
+	
+	}
+
+	for(i=0; i<3; i++) {
+		
+		for(j=0; j<3; j++){
+		  	printf("%d ",matris[i][j]);
+		}
+	    printf("\n");
+	}
+
+	return 0;
+}
+Sonuç: 
+3
+5
+8
+9
+6
+0
+1
+2
+6
+3 5 8
+9 6 0
+1 2 6
+
+--------------------------------
+Process exited after 8.354 seconds with return value 0
+Press any key to continue . . .
