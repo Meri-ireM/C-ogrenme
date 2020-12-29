@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+	
+	char isim[20];
+	
+	printf("Isminizi giriniz:");
+	
+	scanf("%s",isim); //Karakter dizinlerinde "&" kullanmıyoruz
+	
+	printf("Isminiz: %s",isim);
+	
+	return 0;
+}
+Sonuç:
+Isminizi giriniz:Meri
+Isminiz: Meri
+--------------------------------
+Process exited after 5.805 seconds with return value 0
+Press any key to continue . . .
