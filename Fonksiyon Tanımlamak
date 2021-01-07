@@ -1,0 +1,44 @@
+/* Scanf foksiyonu ile kullanıcıdan bir sayı alacağız ancak bu sayının negatif
+olmasını istemiyoruz. eğer hata mesajı verirse
+fonksiyon ile hata mesajı vereceğiz
+*/
+
+/*Eğer fonksiyonumuzda hiçbir şey dönmezse geriye, 
+bu fonksiyonumuz void. Printf işlemleri vs. yani
+ Gerçek dünyaya hiçbir şey bırakmıyor */
+ 
+ #include<stdio.h>
+ 
+ //Parametrenin veri tipini belirtmek mühim
+ void hatayibasma(int hata){
+ 	
+ 	printf("Hata kodu %d",hata); 	
+ }
+ 
+ int main() {
+ 	
+ 	int sayi;
+ 	printf("Lutfen negatif olmayan bir sayi giriniz: ");
+ 	
+ 	scanf("%d",&sayi);
+ 	
+ 	if ( sayi< 0 ){
+ 		
+ 		//tanımladığımız fonk. çağırma
+ 	hatayibasma(404);
+ 		
+	 }
+	 else {
+	 	printf("Tebrikler");
+	 }
+ 	
+ 	
+ 	return 0;
+ }
+
+sonuç:
+Lutfen negatif olmayan bir sayi giriniz: -21
+Hata kodu 404
+--------------------------------
+Process exited after 3.663 seconds with return value 0
+Press any key to continue . . .
