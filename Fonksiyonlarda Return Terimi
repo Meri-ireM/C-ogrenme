@@ -1,0 +1,58 @@
+#include<stdio.h>
+ // sayıların toplanmasını bi fonksiyon yardımı ile yapacağız
+ int topla(int sayi1,int sayi2){
+ 	
+ 	//return, dış dünyaya dönüş yapar yani çıktı verir
+ 	return (sayi1+ sayi2);
+ 	
+ }
+ 
+ int main() {
+ 	
+ 	int sayi1;
+ 	int sayi2;
+ 	
+ 	scanf("%d %d",&sayi1,&sayi2);
+ 	
+ 	printf("Sonuc: %d", topla(sayi1,sayi2));
+ 	
+ 	return 0;
+ }
+
+sonuç:
+4
+6
+Sonuc: 10
+--------------------------------
+Process exited after 1.705 seconds with return value 0
+Press any key to continue . . .
+
+YA DA
+
+#include<stdio.h>
+ int topla(int sayi1,int sayi2){
+ 	
+ 	return (sayi1+ sayi2);
+ 	
+ }
+ 
+ int main() {
+ 	
+ 	int sayi1;
+ 	int sayi2;
+ 	int toplam; //!
+ 	
+ 	scanf("%d %d",&sayi1,&sayi2);
+ 	toplam= topla(sayi1, sayi2);
+ 	
+ 	printf("Sonuc: %d", toplam );
+ 	
+ 	return 0;
+ }
+sonuç:
+4
+6
+Sonuc: 10
+--------------------------------
+Process exited after 1.705 seconds with return value 0
+Press any key to continue . . .
