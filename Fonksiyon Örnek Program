@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int asal_mi(int sayi){
+	
+	int i;
+	
+	for(i=2; i<sayi; i++){
+		if(sayi % i== 0){
+			return 0;
+		}
+	}
+	return 1;
+}
+
+int main(){
+	
+	int n;
+	
+	printf("Lutfen sayinizi giriniz:");
+	scanf("%d",&n);
+	
+	if(asal_mi(n) == 0){
+		printf("Bu sayi asal sayi degildir.");
+	}
+	else{
+		printf("Bu sayi asaldir.");
+	}
+	
+return 0;	
+}
+
+sonuç:
+Lutfen sayinizi giriniz:44
+Bu sayi asal sayi degildir.
+--------------------------------
+Process exited after 7.505 seconds with return value 0
+Press any key to continue . . .
