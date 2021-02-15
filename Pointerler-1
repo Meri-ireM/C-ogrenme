@@ -1,0 +1,20 @@
+//Gercekte isletim sisteminin pointeri nereye koyduğunu bulma
+
+#include <stdio.h>
+
+int main(){
+	
+	int i= 5;
+	
+	int *p= &i;
+	
+	printf("%u", p);  // == %u ile %p sadece p hexadecimal sistemi ile gösterir
+	
+	return 0;
+}
+
+Sonuç:
+6487572
+--------------------------------
+Process exited after 0.05013 seconds with return value 0
+Press any key to continue . . .
