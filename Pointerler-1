@@ -8,13 +8,20 @@ int main(){
 	
 	int *p= &i;
 	
-	printf("%u", p);  // == %u ile %p sadece p hexadecimal sistemi ile gösterir
+	printf("%u\n",p);  // == %u ile %p sadece p hexadecimal sistemi ile gösterir
+	
+	printf("%d",*p);
 	
 	return 0;
 }
 
 Sonuç:
 6487572
+5
 --------------------------------
 Process exited after 0.05013 seconds with return value 0
 Press any key to continue . . .
+
+
+// & değişkenin adres bilgisini veriyor
+// * adresteki değeri veriyor
