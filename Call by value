@@ -1,0 +1,33 @@
+
+#include <stdio.h>
+
+void degerdegistir(int a, int b){
+	
+	int gecici= a;
+	
+	a= b;
+	
+	b= gecici;
+	
+	printf("a: %d b: %d\n",a,b);
+	
+}
+
+int main(){
+	
+	int x= 5, y=10;
+	
+	degerdegistir(x,y);            // a ile b'ye x ile y'nin değerini atadık ama int main'e
+	                               // void degerdegistir fonk.'daki işlemler atanmadı yani
+	printf("x: %d y:%d",x,y);      // yalnızda değerler atanıyor ve ondan sonra x ve y ile 
+	                               // hiçbir şey yapılmıyor = call by value
+	return 0;
+	
+}
+sonuc:
+
+a: 10 b: 5
+x: 5 y:10
+--------------------------------
+Process exited after 0.04436 seconds with return value 0
+Press any key to continue . . .
