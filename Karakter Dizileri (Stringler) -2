@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+	
+	char yazi[]= "tura";
+	
+	printf("%d",strlen(yazi));   
+	
+/* "yazi" adresi veriyor. "strlen" stringin uzunluğunu veriyor
+yani başlangıçtan null karakterine kadar stringin uzunluğunu basmayı sağlıyor */
+	
+	return 0;
+	
+}
+Sonuc:
+4
+--------------------------------
+Process exited after 0.03393 seconds with return value 0
+Press any key to continue . . .
