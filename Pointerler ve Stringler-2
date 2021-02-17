@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(){
+	
+	char yazi[]= "tura";
+	
+	char *p= yazi;
+	
+	printf("%s", p+1);   // Bir sonraki adrese (kutuya) gidiyor ram'de
+	return 0;
+	
+}
+Sonuc:
+ura
+--------------------------------
+Process exited after 0.03635 seconds with return value 0
+Press any key to continue . . .
