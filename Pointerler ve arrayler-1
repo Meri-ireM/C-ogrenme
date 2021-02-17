@@ -1,0 +1,25 @@
+// Arraylerin fonksiyonlara parametre olarak gönderilmesi ve bu işleminde 
+// pointerler aracığıyla yapılması
+
+#include <stdio.h>
+
+int main(){
+	
+	int sayilar[5]= {1,2,3,4,5};
+	
+	int *p= sayilar; // == int *p= &sayilar[0]; == başlangıç adresini vermek	
+	
+	printf("%u\n",p);
+	printf("%u",p+1);
+	
+	return 0;
+	
+}
+sonuc:
+6487552
+6487556
+--------------------------------
+Process exited after 0.04695 seconds with return value 0
+Press any key to continue . . .
+
+// int kutularımızın uzunluğu 4bytlık
