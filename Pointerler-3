@@ -1,0 +1,40 @@
+// Dönüş tipi pointer olan fonksiyon
+
+#include<stdio.h>    
+#include<string.h>    // stringin uzunluğunu almak isteğimiz için
+
+char *dondur(char *p, int indeks){
+	
+	int uzunluk= strlen(p);
+	
+	if(indeks > uzunluk){
+		
+		return NULL;
+	}
+	else{
+		return p+ indeks;
+	}
+	
+}
+
+int main() {
+	
+	char dizi[]= "yazilim";
+	
+	char *p= dondur(dizi,2);
+	
+	if(p== NULL){
+		printf("Pointer NULL");
+	}
+	else{
+		printf("%s",p);
+	}
+	
+	return 0;
+	
+}
+sonuc:
+zilim
+--------------------------------
+Process exited after 0.04431 seconds with return value 0
+Press any key to continue . . .
