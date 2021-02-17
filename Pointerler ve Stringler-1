@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+	
+	char yazi[]= "tura";
+	
+	char *p= yazi;
+	
+	printf("%s", yazi);   //  == printf("%s",p);
+	                      // %s sayesinde başlangıç değerinden aşağakadar
+	                      // yani null karakterini görene kadar basar
+	return 0;
+	
+}
+Sonuc:
+tura
+--------------------------------
+Process exited after 0.03527 seconds with return value 0
+Press any key to continue . . .
