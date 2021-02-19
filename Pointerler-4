@@ -1,0 +1,38 @@
+// Pointer dizileri (Arrayleri)
+
+#include<stdio.h>
+
+char *gunismi(char *gundizisi[], int uzunluk, int hangigun){
+	
+	if(hangigun >=1 && hangigun <=7){
+		
+		return gundizisi[hangigun-1];  /* Bunu yapmamızın nedeni; bilgisayarlar 0'da
+		saymaya başlıyorken bizler 1den başlıyoruz yani biz 3. gün dediğimizde
+		çarşambayı kastediyorken, bilgisayar perşembe anlar. */
+	}
+	else{
+		return NULL;
+	}
+	
+}
+
+int main(){
+	
+	 char *gunler[7]= {"pazartesi", "sali", "carsamba", "persembe", "cuma", "cumartesi", "pazar"};	 
+	
+	char *p= gunismi(gunler,7,3);
+	
+	if(p== NULL){
+		printf("NULL");
+	}
+	else{
+		printf("%s",p);
+	}
+	
+	return 0;
+}
+Sonuc:
+carsamba
+--------------------------------
+Process exited after 0.03601 seconds with return value 0
+Press any key to continue . . .
