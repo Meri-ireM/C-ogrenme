@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+struct araba{
+	
+	int tekerlersayisi;
+	int vitessayisi;
+	int model;
+	float motor;
+	int beygir;
+	
+} a, b;  //İleride a nesnesini oluşturcağına haber verme
+
+int main(){
+	
+	//önceden haber verdiğimiz için tekraradan struct diye tanıtmana gerk yok
+	a= {0};  //yazarsak içindeki tüm verileri 0dan başlatıyor
+	//içinde char olduğu zamanda onu boş olarak tanımlıyor
+	
+	printf("%d %d %d %2.f %d", a.beygir,a.model, a.tekerlersayisi, a.motor, a.vitessayisi);
+	
+	return 0;
+	
+}
+Sonuc:
+0 0 0  0 0
+--------------------------------
+Process exited after 0.0622 seconds with return value 0
+Press any key to continue . . .
