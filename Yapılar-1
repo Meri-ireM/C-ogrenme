@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+struct ogrenci{
+	char isim[20];
+	char soyisim[20];
+	int numara;
+	int yas;
+	
+	
+};
+
+int main(){
+	
+	struct ogrenci a = {"Ahmet","Gedikli",135,23};
+	//ogrenci yapısından bir tane a
+	// isminde nesne oluşturduk
+	//Bir veri tipinin içindeki değere nokta ile ulaşıyoruz
+	printf("%s %s\n",a.isim, a.soyisim);
+	printf("%d %d",a.numara, a.yas);
+	
+	return 0;
+	
+}
+sonuc:
+Ahmet Gedikli
+135 23
+--------------------------------
+Process exited after 0.08325 seconds with return value 0
+Press any key to continue . . .
