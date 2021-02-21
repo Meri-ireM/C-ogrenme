@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+struct araba{
+	
+	int tekerlersayisi;
+	int vitessayisi;
+	int model;
+	float motor;
+	int beygir;
+	
+} a, b; 
+
+int main(){
+	
+	a= {4, 6, 2021, 3.0, 300};
+	b= a;  // dersek a daki değişkenleri b kendi bünyesine alır
+	
+	printf("%d %d %d %2.f %d \n", a.beygir,a.model, a.tekerlersayisi, a.motor, a.vitessayisi);
+	printf("%d %d %d %2.f %d", b.beygir,b.model, b.tekerlersayisi, b.motor, b.vitessayisi);
+	
+	return 0;
+	
+}
+Sonuc:
+300 2021 4  3 6
+300 2021 4  3 6
+--------------------------------
+Process exited after 0.05708 seconds with return value 0
+Press any key to continue . . .
